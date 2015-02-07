@@ -1,0 +1,183 @@
+body.formdesigner { overflow: hidden !important; }
+.wrapAll {
+    margin: 0 0 -30px;
+    width: 990px;
+}
+.wrapHeader .head {
+    background: url("/themes/classic/images/bg-grad-dark-tall.png") repeat-x scroll left bottom #414041;
+    border-radius: 6px 6px 6px 6px;
+    height: 56px;
+    margin: 6px 0 18px;
+}
+.wrapHeader .logo {
+    float: left;
+    padding: 19px 16px 0 30px;
+}
+.wrapBody {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 0 6px 6px;
+    min-height: 200px;
+    padding: 30px;
+}
+.wrapBody.roundBorder {
+    border-radius: 6px 6px 0 0;
+}
+.formish {
+    color: #666666;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 12px;
+}
+.formish h1, .formish h2, .formish h3, .formish h4, .formish h5 {
+    background: none repeat scroll 0 0 #F2F2F2;
+    color: #231F20;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+.formish label {
+    color: #00AAED;
+    display: block;
+    font-weight: bold;
+    margin: 0 0 6px;
+}
+.formish input.text, .formish textarea, .formish select {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DCDCDC;
+    color: inherit;
+    font-size: inherit;
+    min-width: 162px;
+    padding: 9px;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.formish input.text.error, .formish textarea.error, .formish select.error {
+    border: 1px solid #FF0000;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.formish select {
+    height: 35px;
+    line-height: 34px;
+    min-width: 182px;
+    padding: 8px 5px;
+}
+.formish textarea {
+    outline: medium none;
+    overflow: auto;
+    padding: 9px;
+    resize: none;
+}
+.formish .error, .formish div.errorMessage {
+    color: #FF0000;
+    font-style: italic;
+    margin: 0;
+}
+.formish .unit {
+    margin: 0 18px 3px 0px;
+    position: relative;
+}
+.formish .checkbox, .formish .radio {
+    overflow: hidden;
+}
+.formish .checkbox input, .formish .radio input {
+    float: left;
+    position: relative;
+    top: 2px;
+}
+.formish .checkbox label, .formish .radio label {
+    color: #666666;
+    font-weight: normal;
+    padding: 0 0 0 7px;
+    display: inline;
+}
+.formish .shift {
+    margin: 0 0 20px;
+    padding: 0 15px;
+    position: relative;
+}
+.button {
+    background: url("bg-btn.gif") repeat-x scroll 0 0 #DDDDDD !important;
+    border-color: #BBBBBB #BBBBBB #999999;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 #F8F8F8;
+    -webkit-box-shadow: 2px 1px 3px 0 #F8F8F8;
+    -khtml-box-shadow: 2px 1px 3px 0 #F8F8F8;
+    -moz-box-shadow: 2px 1px 3px 0 #F8F8F8;
+    -ms-box-shadow: 2px 1px 3px 0 #F8F8F8;
+    -o-box-shadow: 2px 1px 3px 0 #F8F8F8;
+    color: #333333 !important;
+    cursor: pointer;
+    display: inline-block;
+    font: 12px/15px Helvetica Neue,Arial,"Lucida Grande",Sans-serif;
+    margin: 0;
+    overflow: hidden;
+    padding: 7px 9px;
+    text-decoration: none;
+    text-shadow: 0 1px #F0F0F0;
+    text-transform: uppercase;
+}
+button.button{
+	line-height: 13px;
+}
+.button.lower{
+	text-transform: none;
+	font-size: 13px;
+}
+.button:hover {
+	background: url("bg-btn.gif") repeat-x scroll 0 -210px #DDDDDD !important;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+}
+.button.blue {
+    background: url("bg-btn-blue.gif") repeat-x scroll 0 0 #3399DD !important;
+    border-color: #3399DD #3399DD #2288CC !important;
+    box-shadow: 0 0 7px #2288CC !important;
+    -webkit-box-shadow: 0 0 7px #2288CC !important;
+    -khtml-box-shadow: 0 0 7px #2288CC !important;
+    -moz-box-shadow: 0 0 7px #2288CC !important;
+    -ms-box-shadow: 0 0 7px #2288CC !important;
+    -o-box-shadow: 0 0 7px #2288CC !important;
+    color: #FFFFFF !important;
+    text-shadow: -1px -1px 0 #3399DD !important;
+}
+.button.blue:hover {
+    background: url("bg-btn-blue.gif") repeat-x scroll 0 -210px #3399DD !important;
+}
+.width75 {
+    width: 75%;
+}
+.width75 input.text, .width75 textarea, .width75 select {
+    width: 75%;
+}
+.errorSummary {
+    background: none repeat scroll 0 0 #FFEEEE;
+    border: 2px solid #CC0000;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 0.95em;
+    margin: 0 0 20px;
+    padding: 7px;
+}
+.errorSummary ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.errorSummary ul li {
+    background: none repeat scroll 0 0 transparent;
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+.errorSummary p {
+    margin: 0;
+    padding: 5px;
+}
