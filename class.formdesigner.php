@@ -1,7 +1,7 @@
 <?php
 
 class FormDesigner {
-	const API_URL = 'https://i.formdesigner.loc';
+	const API_URL = 'https://i.formdesigner.ru';
 	
 	private $hash;
 	private $cryptKey;
