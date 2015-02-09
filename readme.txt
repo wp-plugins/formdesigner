@@ -4,7 +4,7 @@ Donate link: http://formdesigner.ru/
 Tags: formdesigner, генератор форм, конструктор форм, веб-форма, онлайн форма, форма обратной связи, форма заказа, форма голосования, опросы 
 Requires at least: 3.0.1
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,3 +38,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 = 1.0.0 =
 * первая версия плагина
+
+= 1.0.1 =
+* доработка кода плагина
