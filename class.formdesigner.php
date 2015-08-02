@@ -70,7 +70,7 @@ class FormDesigner {
 	}
 	
 	public function adminMenu(){
-		add_menu_page( 'Конструктор форм FormDesigner', 'FormDesigner', 8, 'formdesigner', array($this, 'mainContent') );
+		add_menu_page( 'Конструктор форм FormDesigner', 'FormDesigner', 8, 'formdesigner', array($this, 'mainContent'), FORMDESIGNER__PLUGIN_URL.'/src/menu_icon.png' );
 	}
 	
 	public function loadResources($hook){
