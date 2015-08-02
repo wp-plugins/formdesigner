@@ -41,3 +41,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 = 1.0.1 =
 * доработка кода плагина
+
+= 1.0.2 =
+* добавил иконку в меню
