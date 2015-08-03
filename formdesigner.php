@@ -3,7 +3,7 @@
 Plugin Name: FormDesigner
 Plugin URI: http://wordpress.org/plugins/formdesigner
 Description: Многофункциональный конструктор веб-форм в режиме реального времени. Не требуется специальных знаний и навыков.
-Version: 1.0.1
+Version: 1.0.2
 Author: FormDesigner.ru
 Author URI: http://formdesigner.ru
 
